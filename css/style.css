@@ -1,0 +1,54 @@
+.pagination{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	width: 800px;
+	margin: 100px auto;
+}
+.item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.item .number{
+	text-align: center;
+	height: 20px;
+	width: 20px;
+}
+
+.icon, .number{
+	border-radius: 50%;
+}
+
+.number{
+	padding: 7px;
+}
+
+	.icon{
+	display: flex;
+	border: 1px solid #087f5b;
+	width: 35px;
+	height: 35px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover, .icon:hover{
+	background-color: #087f5b;
+	color:#fff;
+}
+
+.btn--icon{
+	stroke: #087f5b;
+	padding: 10px;
+}
+
+.btn--icon:hover{
+	stroke: #fff;
+	border-color: #087f5b;
+}
